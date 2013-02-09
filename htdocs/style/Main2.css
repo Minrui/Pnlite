@@ -1,0 +1,130 @@
+﻿body
+{   
+	text-align:center;
+	background: #E6EAE9;
+	text-align: center;
+	font-family:  Arial, Verdana, sans-serif,"宋体" ;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px;
+	font-size: 12px;
+	border: 0px;
+}
+.content
+{ 
+    width :800px;
+    padding:0px 0px 0px;
+    background: #E6EAE9; 
+    }
+/*表单样式*/
+table
+{
+    border-collapse :collapse ;
+    width :95%;
+ }
+th 
+{
+	 font: bold 14px Arial , Verdana , sans-serif , "宋体"; 
+	 background:#FEDC58;
+	 height:22px; 
+	 color:#FFF; 
+	 border-top:1px solid #000c74; 
+	 border-right:1px solid #003; 
+	 border-bottom:1px solid #003; 
+	 border-left:1px solid #000c74; 
+	 padding:0 5px;
+	 }
+    
+td {font-size: 12px; padding:0 5px;}
+.odd td 
+{ 
+	background:#333; 
+	height:22px; 
+	border-top:1px solid #444; 
+	border-right:1px solid #222; 
+	border-bottom:1px solid #222; 
+	border-left:1px solid #444; 
+	color:#FFF;
+	}
+.even td 
+{ 
+	background:#444; 
+	height:22px; 
+	border-top:1px solid #555; 
+	border-right:1px solid #333; 
+	border-bottom:1px solid #333;
+    border-left:1px solid #555; 
+    color:#FFF;
+    }
+
+ #filetable
+ {
+ 	color: #4f6b72;
+	background:#E6EAE9;
+	font:normal 12px Tahoma;
+	width :420px;
+	padding :5px 5px;
+ 	}
+ 
+
+/*提交按钮*/
+.postsubmit
+{
+	border:1px solid #CDCCB4;
+	background-color: #EFEEE1;
+	font-weight:bold;
+	font-size: 12px;
+	color:#767648;
+	width:60px;
+	margin-right:10px;
+	padding:5px 10px 3px !important;
+	padding:3px 10px 0px;
+}
+/*分页导航*/
+ .pagebar a:link
+ {
+ 	border:1px solid #ccc;
+ 	background:#FFFFFF;
+ 	font:normal 10px Arial;
+ 	padding:3px 6px;
+ 	margin-right:2px;
+ 	text-decoration:none;
+ 	color:#999999;
+ 	}
+.pagebar a
+ {  color :#AE1B0D;}
+.pagebar a:visited
+ {
+ 	border:1px solid #ccc;
+ 	background:#FFFFFF;
+ 	font:normal 10px Arial;
+ 	padding:3px 6px;
+ 	margin-right:2px;
+ 	text-decoration:none;
+ 	}
+.pagebar a:hover
+ {
+ 	color: #008000;
+ 	border:1px solid #ABCD3A;
+ 	background:#F2FDDB;
+ 	}
+ .current 
+ {
+ 	font:bold 10px Arial;
+ 	padding:3px 6px;
+ 	margin-right:2px;
+ 	border:1px solid #E8DB97;
+ 	background:#FFFFDD;
+ 	color:#AE1B0D;
+ 	}
+
+a { color: #FFFFFF; } 
+	/*链接样式*/
+	a:link
+	{
+		font:normal 12px Arial;
+	    color:#999999;
+		}
+    a:hover
+    {   font:normal 12px Arial;
+    	color: #FEDC58;
+    	}

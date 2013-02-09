@@ -1,0 +1,14 @@
+rewriteengine on
+rewriterule ^send/?$ /send.php
+rewriterule ^inbox/([^/]+)/([^/]+)/?$ /inbox.php?device_id=$1&username=$2
+rewriterule ^active/([^/]+)/([^/]+)/?$ /active.php?device_id=$1&username=$2
+rewriterule ^show_inbox/([^/]+)/([^/]+)/?$ /show_inbox.php?device_id=$1&username=$2&page=1
+rewriterule ^show_inbox/([^/]+)/([^/]+)/([^/]+)/?$ /show_inbox.php?device_id=$1&username=$2&page=$3
+rewriterule ^post/?$ /post.php
+rewriterule ^post_demo/?$ /post_demo.php
+rewriterule ^send_single/?$ /send_single.php
+rewriterule ^show_outbox/?$ /show_outbox.php
+rewriterule ^show_outbox_single/([^/]+)/?$ /show_outbox_single.php?device_id=$1
+rewriterule ^rm_outbox/([^/]+)/([^/]+)/?$ /rm_outbox.php?device_id=$1&dir=$2
+rewriterule ^rm_inbox/([^/]+)/([^/]+)/([^/]+)/?$ /rm_inbox.php?device_id=$2&fname=$1&username=$3
+rewriterule ^open_outbox/([^/]+)/([^/]+)/?$ /open_outbox.php?device_id=$1&dir=$2

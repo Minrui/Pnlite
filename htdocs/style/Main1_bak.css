@@ -1,0 +1,94 @@
+﻿body
+{   
+	text-align:center;
+	background: #E6EAE9;
+	text-align: center;
+	font-family:  Arial, Verdana, sans-serif,"宋体" ;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px;
+	font-size: 12px;
+	border: 0px;
+}
+.content
+{   width :450px;
+    padding:0px 0px 0px;
+    background-color :#ffffff ;
+    }
+	/*table表单样式*/
+table, td 
+{
+    font-size: 12px;
+	font-family: Arial , Verdana , sans-serif , "宋体"; 
+}
+th { 
+font: bold 13px Arial , Verdana , sans-serif , "宋体"; 
+color: #4f6b72; 
+border-right: 1px solid #C1DAD7; 
+border-bottom: 1px solid #C1DAD7; 
+border-top: 1px solid #C1DAD7; 
+letter-spacing: 2px; 
+text-transform: uppercase; 
+text-align: left; 
+padding: 6px 6px 6px 12px; 
+background: #CAE8EA  no-repeat; 
+text-align :center ;
+} 
+table
+{
+    border-collapse :collapse ;
+    width :95%;
+ }
+td
+{
+height:15px;
+}
+
+tr,td { 
+border-right: 1px solid #C1DAD7; 
+border-bottom: 1px solid #C1DAD7; 
+background: #fff; 
+font-size:12px; 
+padding: 4px 6px 4px 12px; 
+color: #4f6b72; 
+}
+
+
+#filetable tr, #filetable td {
+border-right: 0px solid; 
+border-bottom: 0px solid;
+background: #fff; 
+font-size:12px; 
+padding: 4px 6px 4px 12px; 
+color: #4f6b72;  
+}  
+
+/*按钮*/
+.btn /*.postsubmit*/
+{
+	border:1px solid #CDCCB4;
+	background-color: #EFEEE1;
+	font-weight:bold;
+	font-size: 12px;
+	color:#767648;
+	//width:60px;
+	margin-right:10px;
+	padding:5px 10px 3px !important;
+	padding:3px 10px 0px;
+	width:80px;
+}
+
+	/*链接样式*/
+
+	a:link, a:visited
+	{
+		font:normal 12px Arial;
+	    color:#999999;
+		}
+    a:hover
+    {   font:normal 12px Arial;
+    	color: #008000;
+    	}
+    	
+td {
+text-align:left;
+}
